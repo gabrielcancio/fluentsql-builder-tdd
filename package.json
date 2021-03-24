@@ -1,12 +1,15 @@
 {
   "name": "fluentsql-jest-tdd",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/fluentSQL.js",
   "license": "MIT",
   "type": "module",
   "scripts": {
+    "start": "node --experimental-json-modules src/",
     "dev": "nodemon src/server.js",
-    "test": "jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --config jest.config.mjs",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules jest --config jest.config.mjs --coverage",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --config jest.config.mjs --watchAll"
   },
   "devDependencies": {
     "jest": "^26.6.3",
