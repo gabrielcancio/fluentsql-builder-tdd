@@ -27,7 +27,7 @@
 ## :gear: Installing
 1. Make a clone of this repository with command: 
 ```bash
-$ git clone https://github.com/gabrielcancio/ignite-challenge-todoAPI.git
+$ git clone https://github.com/gabrielcancio/fluentsql-builder-tdd.git
 ```
 
 2. Install the dependencies(*You need [yarn](https://yarnpkg.com/getting-started/install) or [npm](https://www.npmjs.com/get-npm) installed*): 
