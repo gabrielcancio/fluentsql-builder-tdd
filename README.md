@@ -42,7 +42,7 @@ $ npm install
 ---
 
 ## :zap: Running
-1. You can run the applcation running the follow command:
+1. You can run the application running the follow command:
 ```bash
 $ yarn start
 ```
